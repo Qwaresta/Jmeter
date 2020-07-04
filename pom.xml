@@ -15,6 +15,15 @@
         <performancetest.script>Test Plan.jmx</performancetest.script>
     </properties>
 
+    <!-- For CheckHouse -->
+    <dependencies>
+    <dependency>
+        <groupId>cloud.testload</groupId>
+        <artifactId>jmeter.pack-listener</artifactId>
+        <version>1.4</version>
+    </dependency>
+    </dependencies>
+
     <!-- Build Settings -->
     <build>
         <plugins>
